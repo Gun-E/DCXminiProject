@@ -1,0 +1,22 @@
+# Jupyter Notebook 체크포인트
+.ipynb_checkpoints/
+
+# Python 바이트코드
+*.pyc
+*.pyo
+__pycache__/
+
+# 가상 환경
+venv/
+env/
+virtualenv/
+
+# IDE 설정
+.vscode/
+.idea/
+
+
+# 로그 및 임시 파일
+*.log
+*.tmp
+*.bak
