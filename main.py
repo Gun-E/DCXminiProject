@@ -19,8 +19,12 @@ logger = logging.getLogger(__name__)
 # FastAPI 앱 실행
 if __name__ == "__main__":
     import uvicorn
-
-    uvicorn.run(app, host="192.168.219.79", port=8000)
+    uvicorn.run(
+        "main:app",
+        host="192.168.219.68",
+        port=8000,
+        reload=True
+    )
 
 
 @app.get("/")
