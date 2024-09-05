@@ -16,7 +16,7 @@ logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 )
 logger = logging.getLogger(__name__)
-# FastAPI 앱 실행
+# FastAPI spotipy 앱 실행
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(
